@@ -38,6 +38,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   color: #3498db;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -85,12 +86,6 @@ body {
 .logout-btn:disabled {
   background-color: #bdc3c7;
   cursor: not-allowed;
-}
-
-/* Main Content */
-.main-content {
-  min-height: calc(100vh - 70px);
-  padding: 2rem 0;
 }
 
 /* Card Styles */
