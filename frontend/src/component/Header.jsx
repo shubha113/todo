@@ -38,7 +38,7 @@ const Header = () => {
           </nav>
           <div className="user-section">
             {/* Greet user if logged in */}
-            {user && <span className="user-name">Welcome, {user.name}</span>}
+            {user && isAuthenticated && <span className="user-name">Welcome, {user.name}</span>}
             {/* To show login or logout based on the auth state */}
             <button
               className="logout-btn"
